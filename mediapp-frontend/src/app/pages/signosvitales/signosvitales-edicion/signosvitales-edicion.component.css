@@ -1,0 +1,21 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    
+   
+  }
+  
+  .example-container>* {
+    width: 100%;
+  }
+  
+  .invalido {
+    color: red;
+  }
+  
+  .one-row{
+    display:  inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:  space-between  ;
+  }
